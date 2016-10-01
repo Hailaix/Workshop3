@@ -60,9 +60,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <form class="navbar-form navbar-right" role="search">
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search Twitter">
+                  <input type="text" class="form-control t-search" placeholder="Search Twitter">
                   <span class="input-group-btn">
-                    <button type="submit" class="btn btn-default">
+                    <button type="submit" class="btn btn-default t-search-btn">
                       <span class="glyphicon glyphicon-search"></span>
                     </button>
                   </span>
@@ -79,36 +79,42 @@
               </div>
               <!-- Main feed: A cell that spans 6 columns? -->
               <div class="col-md-6">
-                <div class="panel panel-default">
+                <div class="panel panel-default t-feed">
                   <div class="panel-body">
                     <div class="row">
-                      <div class="media">
-                        <div class="pull-right">
-                          <div class="btn-group" role="group">
-                            <button type="button" class="btn btn-default">
-                              <span class="glyphicon glyphicon-certificate"></span>
-                            </button>
-                            <button type="button" class="btn btn-default">
-                              Following
-                            </button>
+                      <div class="col-md-12">
+                        <div class="media">
+                          <div class="pull-right">
+                            <div class="btn-group" role="group">
+                              <button type="button" class="btn btn-default">
+                                <span class="glyphicon glyphicon-certificate"></span>
+                              </button>
+                              <button type="button" class="btn btn-default">
+                                Following
+                              </button>
+                            </div>
                           </div>
-                        </div>
-                        <div class="media-left media-top">
-                          PIC
-                        </div>
-                        <div class="media-body">
-                          <a href="#">NASA</a>
-                          <span class="glyphicon glyphicon-check"></span>
-                          <br> @NASA
+                          <div class="media-left media-top">
+                            PIC
+                          </div>
+                          <div class="media-body">
+                            <a href="#">NASA</a>
+                            <span class="glyphicon glyphicon-check"></span>
+                            <br> @NASA
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="row">
-                      This spiral galaxy hosts a supermassive black hole that's also super-hungry:
-                      <a href="#">http://go.nasa.gov/1Rp6V2w</a><a href="#"> @NASA_Hubble</a>
+                      <div class="col-md-12">
+                        This spiral galaxy hosts a supermassive black hole that's also super-hungry:
+                        <a href="#">http://go.nasa.gov/1Rp6V2w</a><a href="#"> @NASA_Hubble</a>
+                      </div>
                     </div>
                     <div class="row">
-                      <img src="img/Galaxy.jpg" width="100%" />
+                      <div class="col-md-12">
+                        <img src="img/Galaxy.jpg" width="100%" />
+                      </div>
                     </div>
                     <hr></hr>
                     <div class="row">
@@ -141,7 +147,9 @@
                     </div>
                     <hr></hr>
                     <div class="row">
-                      12:44 PM - 8 Jan 2016
+                      <div class="col-md-12">
+                        12:44 PM - 8 Jan 2016
+                      </div>
                       <br>
                       <div class="col-md-1">
                       <a href="#"><span class="glyphicon glyphicon-arrow-left"></span></a></div>
