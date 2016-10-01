@@ -8,6 +8,15 @@ body {
   border-radius: 0px 30px 30px 0px;
   border-left: 0px;
 }
-.t-feed{
-  
+.g-arrow .glyphicon-arrow-left{
+  color: gray;
+}
+.g-refresh .glyphicon-refresh{
+  color: gray;
+}
+.g-heart .glyphicon-heart{
+  color: gray;
+}
+.g-option .glyphicon-option-horizontal{
+  color: gray;
 }
